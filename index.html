@@ -12,7 +12,7 @@
         class="w-screen h-screen flex flex-col justify-center items-center gap-4 bg-[#F0EFE9]"
       >
         <!-- Widget -->
-        <div class="shadow-lg bg-white rounded-lg px-16 py-10">
+        <div class="shadow-lg bg-white rounded-lg px-16 py-10 w-[600px]">
           <!-- Widget's Head  -->
           <div class="flex justify-between items-center px-4">
             <p class="text-gray-700 flex justify-between items-center">
@@ -41,17 +41,31 @@
               >
                 <!-- Task finshed checkbox circle -->
                 <span
-                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
-                ></span>
+                  class="px-1 py-1 shrink-0 mt-1 basis-5 h-5 rounded-full border border-gray-700"
+                >
+                  <svg
+                    class="hidden w-full h-full fill-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+                    />
+                  </svg>
+                </span>
 
                 <div class="relative">
                   <!-- Task text -->
-                  <p class="text-gray-700 text-light">
+                  <p
+                    class="text-gray-700 text-light transition-opacity duration-[400ms]"
+                  >
                     Stretching exercise between 2pm and 4pm
                   </p>
 
+                  <!-- line through when the task is clicked which mean completed -->
                   <span
-                    class="hidden absolute top-1/2 -translate-y-1/2 right-0 h-0.5 w-full bg-black"
+                    class="opacity-0 absolute top-1/2 -translate-y-1/2 left-0 h-0.5 w-full bg-red-500"
                   ></span>
                 </div>
               </li>
@@ -61,13 +75,33 @@
               >
                 <!-- Task finshed checkbox circle -->
                 <span
-                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
-                ></span>
+                  class="px-1 py-1 shrink-0 mt-1 basis-5 h-5 rounded-full border border-gray-700"
+                >
+                  <svg
+                    class="hidden w-full h-full fill-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+                    />
+                  </svg>
+                </span>
 
-                <!-- Task text -->
-                <p class="text-gray-700 text-light">
-                  Stretching exercise between 2pm and 4pm
-                </p>
+                <div class="relative">
+                  <!-- Task text -->
+                  <p
+                    class="text-gray-700 text-light transition-opacity duration-[400ms]"
+                  >
+                    Yoga exercise between 5pm and 6pm
+                  </p>
+
+                  <!-- line through when the task is clicked which mean completed -->
+                  <span
+                    class="opacity-0 absolute top-1/2 -translate-y-1/2 left-0 h-0.5 w-full bg-red-500"
+                  ></span>
+                </div>
               </li>
 
               <li
@@ -75,13 +109,33 @@
               >
                 <!-- Task finshed checkbox circle -->
                 <span
-                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
-                ></span>
+                  class="px-1 py-1 shrink-0 mt-1 basis-5 h-5 rounded-full border border-gray-700"
+                >
+                  <svg
+                    class="hidden w-full h-full fill-white"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"
+                    />
+                  </svg>
+                </span>
 
-                <!-- Task text -->
-                <p class="text-gray-700 text-light">
-                  Stretching exercise between 2pm and 4pm
-                </p>
+                <div class="relative">
+                  <!-- Task text -->
+                  <p
+                    class="text-gray-700 text-light transition-opacity duration-[400ms]"
+                  >
+                    Exercise between 6pm and 7pm
+                  </p>
+
+                  <!-- line through when the task is clicked which mean completed -->
+                  <span
+                    class="opacity-0 absolute top-1/2 -translate-y-1/2 left-0 h-0.5 w-full bg-red-500"
+                  ></span>
+                </div>
               </li>
             </ul>
           </div>
