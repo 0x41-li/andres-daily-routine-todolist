@@ -4,72 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="/andres-daily-routine-todolist/assets/index-CNanLslC.js"></script>
-    <link rel="stylesheet" crossorigin href="/andres-daily-routine-todolist/assets/index-3jmF16ED.css">
+    <script type="module" crossorigin src="/andres-daily-routine-todolist/assets/index-BqiQGMEb.js"></script>
+    <link rel="stylesheet" crossorigin href="/andres-daily-routine-todolist/assets/index-uGhHTVD5.css">
   </head>
   <body>
     <main class="">
       <div
-        class="w-screen h-screen flex flex-col justify-center items-center gap-4 bg-[#E3E9FF]"
+        class="w-screen h-screen flex flex-col justify-center items-center gap-4 bg-[#F0EFE9]"
       >
-        <!-- Widget's Head  -->
-        <div
-          class="shadow-lg flex gap-4 items-center justify-center w-[600px] rounded-md bg-[#AF7EEB] py-4"
-        >
-          <div class="w-6 h-6">
-            <svg
-              class="fill-white"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z"
-              />
-            </svg>
+        <!-- Widget -->
+        <div class="shadow-lg bg-white rounded-lg px-16 py-10">
+          <!-- Widget's Head  -->
+          <div class="flex justify-between items-center">
+            <h2 class="text-gray-700 flex justify-between items-center">
+              <span class="flex gap-2 items-start">
+                <span class="date-today text-5xl">12</span>
+
+                <span class="flex flex-col justify-between h-full">
+                  <span class="font-medium">JAN</span>
+                  <span class="font-light">2024</span>
+                </span>
+              </span>
+            </h2>
+
+            <div class="flex flex-col items-end">
+              <p class="font-medium text-lg text-gray-700">Tuesday</p>
+              <p class="font-light text-lg text-gray-700">15:43</p>
+            </div>
           </div>
 
-          <p class="font-bold text-white text-center">Tomorrow's Routine</p>
-        </div>
+          <!-- Widget's Body  -->
+          <div class="mt-8">
+            <ul class="flex flex-col gap-4">
+              <li class="flex items-start justify-start gap-4">
+                <!-- Task finshed checkbox circle -->
+                <span
+                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
+                ></span>
 
-        <!-- Widget's Body  -->
-        <div class="shadow-lg rounded-lg w-[600px] bg-white px-16 py-10">
-          <ul class="flex flex-col gap-4">
-            <li class="flex items-start justify-start gap-4">
-              <!-- Task finshed checkbox circle -->
-              <span
-                class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-[#A1A7C4]"
-              ></span>
+                <!-- Task text -->
+                <p class="text-gray-700 text-light">
+                  Stretching exercise between 2pm and 4pm
+                </p>
+              </li>
 
-              <!-- Task text -->
-              <p class="text-[#A1A7C4]">
-                Stretching exercise between 2pm and 4pm
-              </p>
-            </li>
+              <li class="flex items-start justify-start gap-4">
+                <!-- Task finshed checkbox circle -->
+                <span
+                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
+                ></span>
 
-            <li class="flex items-start justify-start gap-4">
-              <!-- Task finshed checkbox circle -->
-              <span
-                class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-[#A1A7C4]"
-              ></span>
+                <!-- Task text -->
+                <p class="text-gray-700 text-light">
+                  Stretching exercise between 2pm and 4pm
+                </p>
+              </li>
 
-              <!-- Task text -->
-              <p class="text-[#A1A7C4]">
-                Stretching exercise between 2pm and 4pm
-              </p>
-            </li>
+              <li class="flex items-start justify-start gap-4">
+                <!-- Task finshed checkbox circle -->
+                <span
+                  class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-gray-700"
+                ></span>
 
-            <li class="flex items-start justify-start gap-4">
-              <!-- Task finshed checkbox circle -->
-              <span
-                class="block basis-4 shrink-0 mt-1 w-4 h-4 rounded-full border border-[#A1A7C4]"
-              ></span>
-
-              <!-- Task text -->
-              <p class="text-[#A1A7C4]">
-                Stretching exercise between 2pm and 4pm
-              </p>
-            </li>
-          </ul>
+                <!-- Task text -->
+                <p class="text-gray-700 text-light">
+                  Stretching exercise between 2pm and 4pm
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
